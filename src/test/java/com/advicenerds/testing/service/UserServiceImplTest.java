@@ -39,7 +39,7 @@ public class UserServiceImplTest {
 	@Before
 	public void before() {
 		MockitoAnnotations.initMocks(this);
-		userService = new UserServiceImpl(userRepository, userService, passwordEncoder);
+		userService = new UserServiceImpl(userRepository,passwordEncoder);
 		when(userRepository.getOne(id)).thenReturn(user);
 		when(userRepository.save(ArgumentMatchers.any(User.class))).then(returnsFirstArg());
 		
