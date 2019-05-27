@@ -1,4 +1,4 @@
-package com.example.testing.service;
+package com.advicenerds.testing.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
@@ -12,8 +12,9 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.example.testing.model.User;
-import com.example.testing.repository.UserRepository;
+import com.advicenerds.testing.model.User;
+import com.advicenerds.testing.repository.UserRepository;
+import com.advicenerds.testing.service.UserServiceImpl;
 
 /**
  * 

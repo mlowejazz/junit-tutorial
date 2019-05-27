@@ -1,10 +1,10 @@
-package com.example.testing.service;
+package com.advicenerds.testing.service;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.testing.model.User;
-import com.example.testing.repository.UserRepository;
+import com.advicenerds.testing.model.User;
+import com.advicenerds.testing.repository.UserRepository;
 
 /**
  * 

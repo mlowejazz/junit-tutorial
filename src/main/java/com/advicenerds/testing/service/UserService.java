@@ -1,6 +1,6 @@
-package com.example.testing.service;
+package com.advicenerds.testing.service;
 
-import com.example.testing.model.User;
+import com.advicenerds.testing.model.User;
 
 /**
  * 

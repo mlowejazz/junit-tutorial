@@ -1,8 +1,8 @@
-package com.example.testing.repository;
+package com.advicenerds.testing.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.testing.model.User;
+import com.advicenerds.testing.model.User;
 
 /**
  * 

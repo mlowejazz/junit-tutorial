@@ -1,4 +1,4 @@
-package com.example.testing.model;
+package com.advicenerds.testing.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
